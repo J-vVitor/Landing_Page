@@ -1,7 +1,11 @@
 @media (max-width:729px){
 
-    body{
-        overflow-x: hidden 
+    html{
+        overflow-x: hidden;
+    }
+
+    #main,#intro,#top3,#gallery,#contact{
+        width: 100vw;
     }
 
 
