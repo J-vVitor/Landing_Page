@@ -4,11 +4,6 @@
         overflow-x: hidden;
     }
 
-    #main,#intro,#top3,#gallery,#contact{
-        width: 100vw;
-    }
-
-
     #buttonmenu{
         display: none;
     }
@@ -67,7 +62,7 @@
     div#main{
         background-color: #0a1128;
         height: 100vh;
-        width: 100%;
+        width: 180vw;
         box-shadow: 0px 1px 4px #0a1128;
     }
 
@@ -105,7 +100,7 @@
 
     /* 2A PARTE*/
     div#intro{
-        width: 100%;
+        width: 100vw;
     }
     div#intro p{
         text-indent: 10px;
@@ -126,6 +121,7 @@
         background-color: #0a1128;
         height: 100vh;
         color: white;
+        width: 180vw;
     }
     
     #top3 h2{
@@ -210,7 +206,7 @@
 
     #contact{
         background-color: #0a1128;
-        width: 98.9vw;
+        width: 180vw;
         height: 100vh;
     }
 
