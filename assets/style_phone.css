@@ -1,6 +1,9 @@
 @media (max-width:729px){
 
-
+    body{
+        overflow-x: hidden;
+        background-color: red;
+    }
 
     #buttonmenu{
         display: none;
@@ -60,7 +63,7 @@
     div#main{
         background-color: #0a1128;
         height: 100vh;
-        width: 100%;
+        width: 160vw;
         box-shadow: 0px 1px 4px #0a1128;
     }
 
@@ -98,7 +101,7 @@
 
     /* 2A PARTE*/
     div#intro{
-        width: 120vw;
+        width: 160vw;
     }
     div#intro p{
         text-indent: 10px;
@@ -119,7 +122,7 @@
         background-color: #0a1128;
         height: 100vh;
         color: white;
-        width: 100%
+        width: 160vw;
     }
     
     #top3 h2{
@@ -204,7 +207,7 @@
 
     #contact{
         background-color: #0a1128;
-        width: 100vw;
+        width: 160vw;
         height: 100%;
     }
 
@@ -282,6 +285,7 @@
     }
 
     footer a{
+        width: 160vw;
         font-size: 17px;
     }
 }
