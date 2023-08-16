@@ -1,7 +1,7 @@
 @media (max-width:729px){
 
     body{
-        width: 100%;
+
         overflow-x: hidden;
     }
 
@@ -69,13 +69,13 @@
 
     .desenho{ 
         position: relative;
-        top: 500px;
+        top: 430px;
         left: 28%;
        max-width: 200px;}
 
        .interna {
        position: relative;
-       left: 18%;
+       left: 7%;
         height: 60px;
         color:white;
         font-size: 3em;
@@ -92,6 +92,7 @@
     .interna p{
         padding: 10px;
         width: 300px;
+    
         margin-right: 30px;
         margin-top: 7px;
         text-align: justify;
@@ -106,7 +107,8 @@
     div#intro p{
         text-indent: 10px;
         padding: 6px;
-        width: 400px;
+        width: 320px;
+    
         font-size: 18px;
         text-align: left;
     }
@@ -145,9 +147,9 @@
     }
 
     .divgrid p{
-   
-        line-height: 20px;
-        width: 80%;
+
+        line-height: 16px;
+        width: 100px;
         font-size: 16px;
         text-align: left;
         align-items: center;
@@ -155,9 +157,16 @@
         font-family:'DM Sans', sans-serif;
     }
 
+    .divgrid{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 6px;
+        top: 40px;
+        margin-left: 10px;
+    }
+
     .divgrid label{
-        padding-right: 18px;
-        margin-right: 10px;
         display: inline-flex;
         transform: rotate(7deg);
         font-size: 60px;
@@ -173,7 +182,15 @@
         display: block;
         justify-items:center;
         padding: 10px;
+       
     }
+
+    .gallerygrid img{
+        width: 300px;
+        padding: 2px;
+        margin:2px;
+    }
+
 
     
     .gallerygrid img:hover{
@@ -192,14 +209,14 @@
     }
     
     #gallery h3{
-        font-size: 3em;
+        font-size: 2.7em;
         font-family:'Montserrat', sans-serif ;
         color: #0a1128;
     }
     
     #gallery p {
         font-weight:400;
-        font-size: 26px;
+        font-size: 18px;
         font-family: 'DM Sans',sans-serif;
     }
 
@@ -220,14 +237,16 @@
     
     #contact p{text-align: justify; 
         color: white;
-        font-size: 20px;
+        width: 300px;
+        padding: 8px;
+        font-size: 16px;
         margin-left: 40px;
         font-family: 'DM Sans',sans-serif;
     }
     
     #contact h3,p{
         padding-top:10px ;
-        padding-left: 30px;
+        padding-left: 4px;
     }
     
     
