@@ -1,8 +1,6 @@
 @media (max-width:729px){
 
-    html{
-        overflow-x: hidden;
-    }
+
 
     #buttonmenu{
         display: none;
@@ -34,7 +32,7 @@
         display: none;
         background-color:white;
         height: 100%;
-        width: 98.9vw;
+        width: 100%;
         border-bottom: 1px solid #eee;
          /* Modo camadas css */
     }
@@ -62,7 +60,7 @@
     div#main{
         background-color: #0a1128;
         height: 100vh;
-        width: 120vw;
+        width: 100%;
         box-shadow: 0px 1px 4px #0a1128;
     }
 
@@ -121,7 +119,7 @@
         background-color: #0a1128;
         height: 100vh;
         color: white;
-        width: 110vw;
+        width: 100%
     }
     
     #top3 h2{
@@ -207,7 +205,7 @@
     #contact{
         background-color: #0a1128;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
 
     #contact h3{ text-align: left;
