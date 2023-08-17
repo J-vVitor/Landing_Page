@@ -4,7 +4,7 @@
     border{
         margin: auto;
     }
-    
+
     #buttonmenu{
         overflow-x: hidden;
         display: none;
@@ -104,9 +104,11 @@
 
     div#intro{
         width: 100%;
+        height: 160%;
     }
 
     div#intro p{
+        width: 300px;
         text-indent: 10px;
         font-size: 18px;
         text-align: left;
