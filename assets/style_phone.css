@@ -1,5 +1,10 @@
 @media (max-width:729px){
 
+
+    border{
+        margin: auto;
+    }
+    
     #buttonmenu{
         overflow-x: hidden;
         display: none;
