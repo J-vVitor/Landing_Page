@@ -78,7 +78,7 @@
     
         width: 200px;
         position: relative;
-        left: 80px;
+        left: 60px;
         height: 60px;
         color:white;
     }
@@ -190,7 +190,7 @@
 
     .gallerygrid img{
         position: relative;
-        left: 60px;
+        left: 40px;
         width: 300px;
         padding: 2px;
         margin:2px;
