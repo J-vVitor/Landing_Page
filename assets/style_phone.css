@@ -1,9 +1,7 @@
 @media (max-width:729px){
 
     body{
-        
-        margin: auto;
-        width: 100%;
+        overflow:hidden;
     }
 
     #buttonmenu{
