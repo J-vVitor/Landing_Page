@@ -2,11 +2,12 @@
 
 
     border{
+        overflow-x: hidden;
         margin: auto;
     }
 
     #buttonmenu{
-        overflow-x: hidden;
+        background-color: red;
         display: none;
     }
 
