@@ -1,9 +1,5 @@
 @media (max-width:729px){
 
-    body{
-        overflow:hidden;
-    }
-
     #buttonmenu{
         display: none;
     }
