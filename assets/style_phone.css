@@ -71,13 +71,14 @@
     .desenho{ 
         position: relative;
         top: 430px;
-        left: 60px;
+        left: 120px;
        max-width: 200px;}
 
        .interna {
+    
         width: 200px;
         position: relative;
-        left: 30px;
+        left: 80px;
         height: 60px;
         color:white;
     }
@@ -109,7 +110,7 @@
     }
 
     div#intro p{
-        width: 300px;
+        width: 370px;
         text-indent: 10px;
         font-size: 18px;
         text-align: left;
@@ -188,6 +189,8 @@
     }
 
     .gallerygrid img{
+        position: relative;
+        left: 60px;
         width: 300px;
         padding: 2px;
         margin:2px;
